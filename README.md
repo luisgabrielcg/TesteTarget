@@ -2,8 +2,7 @@
 *IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;*
 ```
 def sequencia_fibonacci(num_escolhido):
-    inicio = 0
-    proximo = 1 
+    inicio, proximo = 0, 1
   
     while inicio < num_escolhido:
         inicio, proximo = proximo, inicio + proximo
@@ -28,7 +27,7 @@ INDICE = 12
 SOMA = 0
 K = 1
 while K<INDICE:
-    K += +1
+    K += 1
     SOMA = SOMA+K
 print(f"O resultado da soma é {SOMA}")
 ```
